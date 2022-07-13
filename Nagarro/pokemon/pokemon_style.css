@@ -1,0 +1,28 @@
+button {
+    background-color: #4CAF50; 
+    border: 2px solid black;
+    color: white;
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    display:block;
+    font-size: 16px;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    font-family : Cursive;
+    letter-spacing: 1px;
+    text-transform:uppercase;
+    text-align:center;
+    border-radius:10px;
+
+}
+
+
+button:hover {
+    background-color:#3e57c7;
+    color: white;
+}
+
+
+  
