@@ -1,6 +1,6 @@
 const root = document.getElementById("root");
 // const getBtn = document.getElementById("get-btn");
-const apiKey = "e25d34f3-6b75-4369-bd96-c00454a5bfc2";
+const apiKey = "3f413793-70a3-490a-a542-85e40637cc17";
 const url = `https://api.cricapi.com/v1/currentMatches?apikey=${apiKey}&offset=0`;
 let count=0;
 // getBtn.addEventListener("click", () => {
