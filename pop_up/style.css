@@ -1,0 +1,32 @@
+#box
+{
+    background-color: rgb(245, 129, 164);
+    height: 350px;
+    width: 750px;
+    visibility: hidden;
+    border: 2px solid rgb(11, 167, 24);
+    font-weight: bold;
+}
+
+
+.clicks
+{
+    padding: 10px;
+    font-size: 20px;
+    border-radius: 20px;
+}
+
+.clicks:hover
+{
+    background-color: rgb(144, 222, 253);
+    font-weight: bold;
+}
+body{
+    background: linear-gradient(to top, rgba(179, 107, 107, 0), rgb(97, 245, 158));
+    height: 100vh;
+}
+
+#box.show
+{
+    visibility: visible;
+}
