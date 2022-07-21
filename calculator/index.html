@@ -1,0 +1,61 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CALCULATOR</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  </head>
+  <body>
+    <h1>CALCULATOR</h1>
+    <div class="container">
+      <form action="calc"><input class="screen" /></form>
+      <table>
+        <tr>
+          <td><input type="button" value="C" onclick="clean()" id="c"/></td>
+          <td><input type="button" value="%" onclick="insert('%')" /></td>
+          <td><input type="button" value="<" onclick="back()" /></td>
+          <td><input type="button" value="/" onclick="insert('/')" /></td>
+        </tr>
+        <tr>
+          <td><input type="button" value="7" onclick="insert(7)" /></td>
+          <td><input type="button" value="8" onclick="insert(8)" /></td>
+          <td><input type="button" value="9" onclick="insert(9)" /></td>
+          <td><input type="button" value="X" onclick="insert('*')" /></td>
+        </tr>
+        <tr>
+          <td><input type="button" value="4" onclick="insert(4)" /></td>
+          <td><input type="button" value="5" onclick="insert(5)" /></td>
+          <td><input type="button" value="6" onclick="insert(6)" /></td>
+          <td><input type="button" value="-" onclick="insert('-')" /></td>
+        </tr>
+        <tr>
+          <td><input type="button" value="1" onclick="insert(1)" /></td>
+          <td><input type="button" value="2" onclick="insert(2)" /></td>
+          <td><input type="button" value="3" onclick="insert(3)" /></td>
+          <td><input type="button" value="+" onclick="insert('+')" /></td>
+        </tr>
+        <tr>
+          <td><input type="button" value="0" onclick="insert(0)" /></td>
+          <td><input type="button" value="." onclick="insert('.')" /></td>
+          <td colspan="2">
+            <input
+              type="button"
+              value="="
+              style="width: 150px; background-color: rgb(247, 247, 102)"
+              onclick="equal()"
+            />
+          </td>
+        </tr>
+      </table>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
